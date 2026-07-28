@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[39756,["/Appolo-Sports-Demo/_next/static/chunks/158myu8e_yme3.js","/Appolo-Sports-Demo/_next/static/chunks/0l2zxnh3qhs9w.js","/Appolo-Sports-Demo/_next/static/chunks/1r0f2o5c26_7p.js"],"default"]
+3:I[37457,["/Appolo-Sports-Demo/_next/static/chunks/158myu8e_yme3.js","/Appolo-Sports-Demo/_next/static/chunks/0l2zxnh3qhs9w.js","/Appolo-Sports-Demo/_next/static/chunks/1r0f2o5c26_7p.js"],"default"]
+4:[]
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"s4UTlbt8mCwOs2DErV69Z"}
