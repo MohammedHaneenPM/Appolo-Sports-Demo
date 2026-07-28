@@ -3,13 +3,13 @@
 import React from "react";
 
 const BRANDS = [
-  { name: "1", logo: "/logo/1.png" },
-  { name: "2", logo: "/logo/2.png" },
-  { name: "3", logo: "/logo/3.png" },
-  { name: "4", logo: "/logo/4.png" },
-  { name: "5", logo: "/logo/5.png" },
-  { name: "6", logo: "/logo/6.png" },
-  { name: "7", logo: "/logo/7.png" }
+  { name: "1", logo: "/Appolo-Sports-Demo/logo/1.png" },
+  { name: "2", logo: "/Appolo-Sports-Demo/logo/2.png" },
+  { name: "3", logo: "/Appolo-Sports-Demo/logo/3.png" },
+  { name: "4", logo: "/Appolo-Sports-Demo/logo/4.png" },
+  { name: "5", logo: "/Appolo-Sports-Demo/logo/5.png" },
+  { name: "6", logo: "/Appolo-Sports-Demo/logo/6.png" },
+  { name: "7", logo: "/Appolo-Sports-Demo/logo/7.png" }
 ];
 
 function BrandItem({ brand, isGray }: { brand: any; isGray?: boolean }) {
