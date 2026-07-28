@@ -21,7 +21,7 @@ export default function HeroCanvas() {
     canvas.height = window.innerHeight;
 
     const currentFrame = (index: number) => 
-      `/frames/ezgif-frame-${index.toString().padStart(3, '0')}.png`;
+      `/frames/ezgif-frame-${index.toString().padStart(3, '0')}.webp`;
 
     const images: HTMLImageElement[] = [];
 
