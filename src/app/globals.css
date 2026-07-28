@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'The Black Marrow';
+  src: url('/fonts/THE BLACK MARROW.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --background: #050505;
+  --secondary: #0A0A0C;
+  --accent: #0050FF;
+  --secondary-accent: #00D6FF;
+  --foreground: rgba(255, 255, 255, 0.9);
+  --foreground-muted: rgba(255, 255, 255, 0.6);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-secondary-accent: var(--secondary-accent);
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  --font-sans: "Inter", "SF Pro Display", sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Lenis recommended styles */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
